@@ -17,7 +17,7 @@ CREATE TABLE Students (
   PRIMARY KEY (Id)
 );
 
-INSERT INTO Customers
+INSERT INTO Customers(Id,FirstName,LastName,DOB,Sex,City,Role)
   VALUES ('U1','Matt','Hamilton','10-26-1999','M','Los Angeles','Web Developer');
 
 INSERT INTO Customers
