@@ -29,5 +29,5 @@ INSERT INTO Customers
 INSERT INTO Customers
   VALUES ('U4','Cortny','Klano','07-21-1999','F','Seattle','API Specialist');
 
-SELECT * FROM Customers
+SELECT Role FROM Customers
 WHERE Sex = 'F' AND NOT City = 'Seattle';
